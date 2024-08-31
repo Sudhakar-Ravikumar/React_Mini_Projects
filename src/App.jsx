@@ -14,6 +14,12 @@ import TabTest from "./components/custom-tabs/tab-test";
 import ModalTest from "./components/custom-modal-popup/modal-test";
 import GithubProfileFinder from "./components/github-profile-finder";
 import SearchAutocomplete from "./components/search-autocomplete-with-api";
+import TicTacToe from "./components/tic-tact-toe";
+import UseFetchHookTest from "./components/use-fetch/test";
+import UseOnclickOutsideTest from "./components/use-outside-click/test";
+import UseWindowResizeTest from "./components/use-window-resize/test";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
+import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 function App()
 {
   return(
@@ -44,6 +50,17 @@ function App()
     <GithubProfileFinder/>
     <p>Title : Search Dropdown</p>
     <SearchAutocomplete/>
+  
+    <TicTacToe/> 
+    <p>Title : Fetch Hook</p>
+    <UseFetchHookTest/><hr></hr>
+    <p>Title : useRef  Hook</p>
+    <UseOnclickOutsideTest/>
+    <p>Title : useResponsive Custom  Hook</p><hr></hr>
+    <UseWindowResizeTest/><hr></hr>
+    <ScrollToTopAndBottom/><hr></hr>
+   
+    <ScrollToSection/>
     </div>
   )
 }
