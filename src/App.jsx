@@ -55,8 +55,8 @@ function App()
     <p>Title : Fetch Hook</p>
     <UseFetchHookTest/><hr></hr>
     <p>Title : useRef  Hook</p>
-    <UseOnclickOutsideTest/>
-    <p>Title : useResponsive Custom  Hook</p><hr></hr>
+    <UseOnclickOutsideTest/><hr></hr>
+    <p>Title : useResponsive Custom  Hook</p>
     <UseWindowResizeTest/><hr></hr>
     <ScrollToTopAndBottom/><hr></hr>
    
